@@ -1,5 +1,34 @@
-body,h1,h2,h3,h4,p{
-    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    background-color: #f3f3f3;
-    color: #333;
+body,
+html,
+h1,
+h2,
+h3,
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #2f3640;
+}
+body{
+    background-color: #2f3640;
+}
+.mainmid {
+  background-color: #2f3640;
+  width: auto;
+  margin: 0 auto;
+  border-top: #2f3640 3px;
+  border-bottom: #2f3640 3px;
+  text-align: center;
+}
+.mainmid img {
+  float: right;
+  box-sizing: border-box;
+  width: 50%;
+}
+.content h1 {
+  float: left;
+}
+.content h2 {
+  float: left;
+}
+.content {
+  float: left;
 }
