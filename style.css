@@ -1,1 +1,5 @@
-
+body,h1,h2,h3,h4,p{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
