@@ -80,6 +80,7 @@ body {
   width: auto;
   border: #dcdde1;
   position: relative;
+  transition: 0.5s;
 }
 .gbr img {
   width: 300px;
@@ -90,17 +91,23 @@ body {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7.6px);
   -webkit-backdrop-filter: blur(7.6px);
+  transition: 0.5s;
+}
+.gbr img:hover {
+  background: rgba(255, 255, 255, 0.6);
 }
 .contentmid h1 {
   float: left;
   text-align: left;
   width: 100%;
   font-size: 46px;
+  transition: 0.5s;
 }
 .contentmid h2 {
   text-align: left;
   font-weight: normal;
   font-size: 30px;
+  transition: 0.5s;
 }
 .contentmid {
   height: 100%;
@@ -122,17 +129,22 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border-bottom: 3px solid #747474;
+  border-bottom: 1px solid #747474;
+  border-top: 1px solid #747474;
   padding: 70px 200px 70px 200px;
+  transition: 0.5s;
 }
 .card:hover,
 .card2:hover {
   background-color: black;
-  box-shadow: 10px 10px 30px 5px black;
-  transition: 0.5s;
+  box-shadow: 10px 5px 40px 5px black;
 }
 .contentmid span {
   color: #e84118;
+  transition: 1s;
+}
+.contentmid span:hover {
+  color: #fcd2c7;
 }
 /* mainmid:Nur Filzah */
 .footer {
