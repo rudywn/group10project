@@ -1,34 +1,182 @@
-body,
-html,
-h1,
-h2,
-h3,
-p {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Martel+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
+* {
   color: #dcdde1;
-}
-body{
-    background-color: #2f3640;
-}
-.mainmid {
-  background-color: #2f3640;
-  width: auto;
-  margin: 0 auto;
-  border-top: #dcdde1 3px;
-  border-bottom: #dcdde1 3px;
-  text-align: center;
-}
-.mainmid img {
-  float: right;
   box-sizing: border-box;
+}
+body {
+  background-color: #2f3640;
+  margin: 0px;
+}
+/* maintop:Rahmat Rafli */
+.maintop {
+  margin: 0;
+  font-family: "Fredoka", Arial, sans-serif;
+  border-bottom: 3px solid #747474;
+}
+.image-maintop {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("./img/bg maintop.jpg");
+  padding-top: 60px;
+  padding-bottom: 82px;
+}
+
+.image-maintop .container {
+  text-align: center;
+  color: rgb(204, 204, 204);
+  opacity: 1;
+  margin: 100px;
+}
+
+.image-maintop .container h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.image-maintop .container .btn {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 16px;
+  color: white;
+  border-radius: 5px;
+  width: 90px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.image-maintop .container .btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.image-maintop .container .mulai {
+  background-color: red;
+  font-family: "Fredoka", Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid red;
+}
+
+.image-maintop .container input[type="text"] {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 16px;
+  width: 400px;
+  font-family: "Fredoka", Arial, sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+}
+/* mainmid:Quadrant Barokatus Salam */
+.mainmid {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: auto;
+  border: #dcdde1;
+  position: relative;
+}
+.gbr img {
   width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
 }
-.content h1 {
+.contentmid h1 {
+  float: left;
+  text-align: left;
+  width: 100%;
+  font-size: 46px;
+}
+.contentmid h2 {
+  text-align: left;
+  font-weight: normal;
+  font-size: 30px;
+}
+.contentmid {
+  height: 100%;
+  width: 52%;
+
+  margin: 20px;
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.card,
+.card2 {
+  min-height: 400px;
+  margin: 20px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #747474;
+  padding: 50px 200px 50px 200px;
+}
+.contentmid span {
+  color: #e84118;
+}
+/* mainmid:Nur Filzah */
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  height: 250px;
+}
+.footer li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.footer-list p {
+  color: red;
+  padding-left: 40px;
+}
+.footer-about p {
+  color: red;
+  padding-left: 40px;
+}
+.footer-logo {
+  float: left;
+  height: auto;
+  width: 250px;
+  padding: 85px 35px;
+  margin-left: 70px;
+}
+.footer-list {
+  float: left;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.list-1 {
   float: left;
 }
-.content h2 {
+.list-1 li {
+  margin-right: 10px;
+  padding-bottom: 5px;
+}
+.list-2 {
   float: left;
 }
-.content {
-  float: left;
+.list-2 li {
+  margin-right: 30px;
+  padding-bottom: 5px;
+}
+.footer-about {
+  float: right;
+  padding-right: 130px;
+  padding-top: 30px;
 }
