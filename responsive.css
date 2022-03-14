@@ -1,3 +1,72 @@
-@media(max-width:1000px){
+@media all and (max-width: 1300px) {
+  /* mainmid:Quadrant Barokatus Salam */
+  .card,
+  .card2 {
+    min-height: 200px;
+    padding: 10px 0 10px 0;
+  }
+  .contentmid h1 {
+    font-size: 30px;
+  }
+  .contentmid h2 {
+    font-size: 24px;
+  }
+}
+@media all and (max-width: 1000px) {
+  /* maintop:Rahmat Rafli */
+  .image-maintop .container .btn {
+    float: left;
+    margin: 5px 0 0 52%;
+  }
+  /* mainmid:Quadrant Barokatus Salam */
+  .contentmid h1 {
+    font-size: 24px;
+  }
+  .contentmid h2 {
+    font-size: 18px;
+  }
+  .gbr img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media all and (max-width: 670px) {
+  /* maintop:Rahmat Rafli */
+  .image-maintop {
+    width: 171%;
+    height: 171%;
+  }
 
+  .image-maintop .container input[type="text"] {
+    width: 75%;
+    margin: auto;
+  }
+
+  .image-maintop .container .btn {
+    float: left;
+    margin: 25px 0 0 52%;
+  }
+  /* mainmid:Quadrant Barokatus Salam */
+  .card {
+    flex-direction: column;
+  }
+  .card2 {
+    flex-direction: column-reverse;
+  }
+  .contentmid {
+    width: 75%;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .contentmid h1 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .contentmid h2 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .gbr {
+    padding-bottom: 30px;
+  }
 }
