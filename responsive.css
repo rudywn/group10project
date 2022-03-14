@@ -29,7 +29,14 @@
     width: 200px;
     height: 200px;
   }
+  
+  /* mainbot rudy hermawan */
+  .mainbot form {
+    display: flex;
+    align-items: center;
+  }
 }
+
 @media all and (max-width: 670px) {
   /* maintop:Rahmat Rafli */
   .image-maintop {
@@ -69,4 +76,17 @@
   .gbr {
     padding-bottom: 30px;
   }
+  
+  /* mainbot rudy hermawan */
+  .fqa h1{
+    text-align: center;
+    padding: 1rem 0 1.7rem 0;
+    font-size: 38px;
+  }
+  
+  .text {
+      font-size: 18px;
+      line-height: 28px;
+   }
+  
 }
